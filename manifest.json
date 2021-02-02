@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"vidload",
+    "version":"1.0",
+    "description":"A Vidload's Toolbox",
+    "icon":{
+        "19": "vidload19.png",
+        "38": "vidload38.png",
+        "48": "vidload48.png",
+        "128":"vidload128.png"
+    },
+    "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='",
+    "browser_action":{
+        "default_icon":{
+            "19": "vidload19.png",
+        "38": "vidload38.png",
+        "48": "vidload48.png",
+        "128":"vidload128.png"
+        },
+        "default_popup":"index.html"
+    },
+    "permission":["activetab"]
+}
